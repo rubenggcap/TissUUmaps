@@ -9,7 +9,7 @@
  * @property {Boolean} _initialized True when h5Utils has been initialized
  */
  h5Utils = {
-    worker_path: 'js/utils/h5Utils_worker.js',
+    worker_path: '/uat/emea/oneai-dda-spatialtr-tissuumapssanofi/js/utils/h5Utils_worker.js',
     relative_root: '../../'
  }
 

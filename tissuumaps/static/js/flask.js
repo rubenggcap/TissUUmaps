@@ -180,7 +180,7 @@ flask.server.init = function () {
         buttons=divpane=HTMLElementUtils.createElement({"kind":"div"});
         buttons.appendChild(button1);
         content=HTMLElementUtils.createElement({"kind":"div"});
-        content.innerHTML = "<iframe src='/filetree' width='100%' height='300px'></iframe>";
+        content.innerHTML = "<iframe src='/uat/emea/oneai-dda-spatialtr-tissuumapssanofi//filetree' width='100%' height='300px'></iframe>";
         interfaceUtils.generateModal ("Open file", content, buttons, modalUID);
     },true);
 
@@ -200,7 +200,7 @@ flask.server.init = function () {
         buttons=divpane=HTMLElementUtils.createElement({"kind":"div"});
         buttons.appendChild(button1);
         content=HTMLElementUtils.createElement({"kind":"div"});
-        content.innerHTML = "<iframe src='/filetree?addlayer=1' width='100%' height='300px'></iframe>";
+        content.innerHTML = "<iframe src='/uat/emea/oneai-dda-spatialtr-tissuumapssanofi/filetree?addlayer=1' width='100%' height='300px'></iframe>";
         interfaceUtils.generateModal ("Open file", content, buttons, modalUID);
     });
 }
